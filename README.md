@@ -23,6 +23,7 @@ jupyter lab
 ## jupyter notebook (classic UI)
 
 ```sh
+# run
 jupyter notebook
 ```
 
@@ -35,9 +36,32 @@ jupyter notebook
 > The Qt console is a very lightweight application that largely feels like a terminal, but provides a number of enhancements only possible in a GUI, such as inline figures, proper multi-line editing with syntax highlighting, graphical calltips, and much more. The Qt console can use any Jupyter kernel.
 
 ```sh
+# install
+conda install qtconsole
+conda install pyqt
+
+# run
 jupyter qtconsole
 ```
 
 **screenshots**
 
 ![](https://www.evernote.com/l/AAG_J_WaXklPBJxd_gS1-8JvTLMnu0Z6RcMB/image.png)
+
+## IJavascript Kernel
+
+IJavascript is a Javascript kernel (node.js) for the Jupyter notebook
+
+```sh
+# install
+npm install -g ijavascript
+
+# registers the IJavascript kernel with Jupyter
+ijsinstall
+```
+
+**screenshots**
+
+![](https://www.evernote.com/l/AAFzQ-qoH-dIc5661TFz2RRk2hIekySeDs0B/image.png)
+
+![](https://www.evernote.com/l/AAG5nUlw2dBIgqnqNfJyuJ6Gc7DZoo-EbaUB/image.png)
